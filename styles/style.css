@@ -369,7 +369,9 @@
 	left: 32px;
 	width: 16px;
 	height: 18px;
+	opacity: var(--icon-opacity, 1);
 	background: center center / contain no-repeat;
+	transition: opacity 0.3s;
 }
 
 .name-icon {
@@ -398,6 +400,10 @@
 	background-color: #f8f8f8;
 	transition: border 0.3s;
 }
+
+/* .form__input:focus {
+	background-color: #000;
+} */
 
 .form__input:hover {
 	border-color: var(--accent-color);
