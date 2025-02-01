@@ -1,0 +1,44 @@
+:root {
+	--light-bg-color: #1b2944;
+	--dark-bg-color: #141f35;
+	--accent-color: #ffbb01;
+	--main-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: Roboto, Arial, Helvetica, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	width: 100%;
+}
+
+button {
+	font: inherit;
+}
